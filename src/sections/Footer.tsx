@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="max-w-7xl mx-auto pt-12 mt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
-        <p className="text-xs text-[#92a4c9]">Copyright ©2026 Kawino's Technologies all rights reserved.</p>
+        <p className="text-xs text-[#92a4c9]">©2026 Elikya Technology. All rights reserved.</p>
         {/* <div className="flex gap-8 text-xs">
           <a className="text-[#92a4c9] hover:text-white transition-colors" href="#">
              <p className='text-[#92a4c9] '>Privacy Policy</p> 
