@@ -2,7 +2,7 @@ function WhyChooseUs() {
   const reasons = [
     { title: "Unmatched", subtitle: "Security" },
     { title: "Lightning", subtitle: "Fast" },
-    { title: "Zero", subtitle: "Fees" },
+    { title: "Zero", subtitle: "Tech Debt" },
     { title: "Global", subtitle: "Reach" }
   ];
 

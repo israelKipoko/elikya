@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 function Main() {
   return (
@@ -14,16 +15,20 @@ function Main() {
             <p className="text-[#92a4c9] text-center text-lg lg:text-xl max-w-[650px] leading-relaxed">
              Empowering fintechs, banks, and microfinance institutions with secure, scalable solutions to move money with confidence.
             </p>
-            <div className="flex flex-wrap gap-4 mt-4">
-              <button 
-              style={{backgroundColor: "#458BCA"}}
-              className="hover:bg-primary/90 h-14 px-8 rounded-lg font-bold text-lg hover:shadow-[0_0_40px_rgba(19,91,236,0.6)] transition-all flex items-center gap-2 group shadow-xl shadow-primary/30">
-                Discover our solutions
-                <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
-              </button>
-              <button className="frosted-glass hover:bg-white/10 h-14 px-8 rounded-lg font-bold text-lg transition-all flex items-center gap-2">
-                Contact us
-              </button>
+            <div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center items-center sm:items-stretch w-full">
+              <Link to="/services" className="flex">
+                <div 
+                  style={{backgroundColor: "#458BCA"}} className="hover:bg-primary/90 h-14 px-8 rounded-lg font-bold text-lg hover:shadow-[0_0_40px_rgba(19,91,236,0.6)] transition-all flex items-center gap-2 group shadow-xl shadow-primary/30 w-full sm:w-auto justify-center">
+                    <p className='text-white'>Discover our Services</p> 
+                    <span className="text-white material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+              </div>
+              </Link>
+             
+              <Link to="/contact" className="flex">
+                <div className="frosted-glass hover:bg-white/10 h-14 px-8 rounded-lg font-bold text-lg transition-all flex items-center gap-2 w-full sm:w-auto justify-center">
+                <p className='text-white'> Contact us</p>
+                </div>
+              </Link>
             </div>
           </div>
 
