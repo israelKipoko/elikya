@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+.tech-grid {
+  background-size: 20px 20px;
+  background-image: 
+    linear-gradient(to right, rgba(19, 91, 236, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(19, 91, 236, 0.05) 1px, transparent 1px);
+}
+
+.glow-spotlight {
+  background: radial-gradient(circle at 50% 50%, rgba(19, 91, 236, 0.35) 0%, transparent 60%);
+}
+
+.frosted-glass {
+  backdrop-filter: blur(12px);
+  background-color: rgba(16, 22, 34, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-panel {
+  backdrop-filter: blur(12px);
+  background-color: rgba(16, 22, 34, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.floating-shape {
+  filter: blur(40px);
+  opacity: 0.4;
+}
+
+/* Mesh Gradients for Why Choose Us Section */
+.mesh-gradient-1 {
+  background: linear-gradient(135deg, rgba(19, 91, 236, 0.2) 0%, rgba(16, 22, 34, 0.8) 100%);
+}
+
+.mesh-gradient-2 {
+  background: linear-gradient(135deg, rgba(19, 91, 236, 0.15) 0%, rgba(16, 22, 34, 0.85) 100%);
+}
+
+.mesh-gradient-3 {
+  background: linear-gradient(135deg, rgba(19, 91, 236, 0.18) 0%, rgba(16, 22, 34, 0.82) 100%);
+}
+
+.mesh-gradient-4 {
+  background: linear-gradient(135deg, rgba(19, 91, 236, 0.12) 0%, rgba(16, 22, 34, 0.88) 100%);
+}
+
+.input-tech {
+  background: rgba(19, 91, 236, 0.08);
+  border: 1px solid rgba(19, 91, 236, 0.2);
+  transition: all 0.3s ease;
+}
+
+.input-tech:focus {
+  background: rgba(19, 91, 236, 0.12);
+  border-color: rgba(19, 91, 236, 0.5);
+  outline: none;
+  box-shadow: 0 0 12px rgba(19, 91, 236, 0.15);
+}
