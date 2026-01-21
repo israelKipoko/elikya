@@ -30,9 +30,7 @@ function ContactPage() {
                   <div>
                     <h3 className="text-xl font-bold mb-2">Address</h3>
                     <p className="text-[#92a4c9] leading-relaxed">
-                      116,Mont des Arts<br />
-                      Gombe, Kinshasa<br />
-                      République Démocratique du Congo
+                       Kinshasa & Lubumbashi, DR. Congo, Africa
                     </p>
                   </div>
                 </div>
@@ -45,7 +43,6 @@ function ContactPage() {
                   <div>
                     <h3 className="text-xl font-bold mb-2">Email</h3>
                     <p className="text-[#92a4c9] mb-1">hello@elikya.tech</p>
-                    <p className="text-[#92a4c9] mb-1">(+243) 820 611 793</p>
                   </div>
                 </div>
 
@@ -56,7 +53,7 @@ function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">Phone</h3>
-                    <p className="text-[#92a4c9] mb-1">(+243) 820 611 793</p>
+                    <p className="text-[#92a4c9] mb-1">(+243) --- --- ---</p>
                   </div>
                 </div>
               </div>

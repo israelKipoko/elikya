@@ -24,8 +24,7 @@ const Footer = () => {
             <div className="flex items-start gap-3">
               <span className="material-symbols-outlined text-primary text-xl">location_on</span>
               <p className="text-[#92a4c9] leading-relaxed">
-                    116, Mont des Arts 
-                    Gombe, Kinshasa<br />
+                   Kinshasa & Lubumbashi, DR. Congo, Africa 
                 </p>
             </div>
             <div className="flex items-center gap-3">
@@ -37,7 +36,7 @@ const Footer = () => {
             <div className="flex items-center gap-3">
                <span className="material-symbols-outlined text-primary">phone</span>
               <a className="text-[#92a4c9] hover:text-white text-sm transition-colors" href="mailto:dev@fintechgrid.io">
-                <p className="text-[#92a4c9] mb-1">(+243) 820 611 793</p>
+                <p className="text-[#92a4c9] mb-1">(+243) --- --- ---</p>
               </a>
             </div>
           </div>
@@ -45,14 +44,14 @@ const Footer = () => {
       </div>
       <div className="max-w-7xl mx-auto pt-12 mt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
         <p className="text-xs text-[#92a4c9]">Copyright ©2026 Kawino's Technologies all rights reserved.</p>
-        <div className="flex gap-8 text-xs">
+        {/* <div className="flex gap-8 text-xs">
           <a className="text-[#92a4c9] hover:text-white transition-colors" href="#">
              <p className='text-[#92a4c9] '>Privacy Policy</p> 
           </a>
           <a className="text-[#92a4c9] hover:text-white transition-colors" href="#">
               <p className='text-[#92a4c9] '>Terms</p> 
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
