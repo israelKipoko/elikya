@@ -1,9 +1,9 @@
 function WhyChooseUs() {
   const reasons = [
     { title: "Unmatched", subtitle: "Security" },
-    { title: "Lightning", subtitle: "Fast" },
+    { title: "High", subtitle: "Availability" },
     { title: "Zero", subtitle: "Tech Debt" },
-    { title: "Global", subtitle: "Reach" }
+    { title: "Global", subtitle: "Outreach" }
   ];
 
   return (
